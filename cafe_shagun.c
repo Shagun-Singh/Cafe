@@ -52,7 +52,7 @@ void del()
             l[i].p=l[i+1].p;
             l[i].t=l[i+1].t;
         }
-        printf("\Done\nClick 1 to delete more\n");
+        printf("\nDone\nClick 1 to delete more\n");
         scanf("%d",&j);
         if(j==1)
             goto m2
